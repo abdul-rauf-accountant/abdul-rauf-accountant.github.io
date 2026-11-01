@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abdul Rauf | Accountant, Bookkeeper, Tax Specialist</title>
+<meta name="description" content="Abdul Rauf - Accountant, Bookkeeper and Tax Specialist with 3+ years of experience in international bookkeeping, financial reporting, payroll and tax compliance.">
+<style>
+  :root{
+    --navy:#112b3a; --teal:#1b7a6b; --ink:#112b3a; --muted:#5f6b73;
+    --soft:#f0f4f7; --line:#e2e8ec; --white:#fff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.6}
+  a{color:var(--teal);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+
+  header.top{background:var(--navy);color:#fff;position:sticky;top:0;z-index:20}
+  header.top .wrap{display:flex;align-items:center;gap:16px;height:64px}
+  .logo{font-size:28px;font-weight:800}
+  .brand{font-size:13px;letter-spacing:.04em;text-transform:uppercase;opacity:.85;flex:1}
+  nav a{color:#fff;font-size:14px;margin-left:16px;opacity:.9}
+  @media(max-width:640px){nav{display:none}}
+
+  .eyebrow{color:var(--teal);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+  .hero{padding:48px 0 32px}
+  .hero .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:32px;align-items:center}
+  @media(max-width:760px){.hero .wrap{grid-template-columns:1fr}}
+  .hero h1{font-size:clamp(40px,7vw,64px);line-height:1.05;margin:12px 0 16px}
+  .roles{font-size:22px}
+  .roles span{color:var(--teal)}
+  .lead{color:var(--muted);margin:20px 0;max-width:460px}
+  .open{margin-top:24px}
+  .photo{width:100%;max-width:380px;aspect-ratio:4/5;object-fit:cover;object-position:top;border-radius:12px;background:var(--soft);justify-self:center}
+
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:32px 0}
+  @media(max-width:600px){.stats{grid-template-columns:1fr}}
+  .stat{background:var(--soft);border-radius:12px;padding:20px 24px}
+  .stat b{display:block;font-size:26px}
+  .stat small{color:var(--muted)}
+
+  h2.sec{font-size:26px;margin:40px 0 12px}
+  .about p{color:var(--muted)}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:16px}
+  .card{background:var(--soft);border-radius:12px;padding:20px}
+  .card h3{font-size:16px;margin-bottom:6px}
+  .card p,.card li{color:var(--muted);font-size:14px}
+  .card ul{list-style:none}
+  .card li{margin-bottom:6px}
+
+  .index{columns:2;column-gap:32px;margin-top:12px}
+  @media(max-width:600px){.index{columns:1}}
+  .index a{display:block;padding:6px 0;border-bottom:1px solid var(--line);color:var(--ink)}
+  .index a span{color:var(--teal);font-weight:700;margin-right:8px}
+
+  .project{padding:48px 0;border-top:1px solid var(--line)}
+  .project h2{font-size:clamp(28px,5vw,40px);font-weight:400;margin:8px 0}
+  .project .sub{color:var(--teal);margin-bottom:12px}
+  .project .desc{color:var(--muted);max-width:760px}
+  .chips{color:var(--teal);font-size:14px;margin:14px 0 20px}
+  .samples-title{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px}
+  .sample{background:var(--soft);border-radius:12px;padding:16px;margin-bottom:16px;text-align:center}
+  .sample img{max-width:100%;max-height:520px;cursor:zoom-in;background:#fff;border-radius:6px}
+  .sample figcaption{margin-top:10px;text-align:left;font-size:14px}
+  .sample figcaption a{cursor:pointer}
+  .note{color:var(--muted);font-size:12px}
+
+  .contact{background:var(--navy);color:#fff;border-radius:16px;padding:32px;margin:48px 0}
+  .contact .eyebrow{color:#9fd8cc}
+  .contact .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 32px;margin-top:16px}
+  @media(max-width:600px){.contact .grid{grid-template-columns:1fr}}
+  .contact a{color:#fff}
+
+  footer{border-top:1px solid var(--line);padding:20px 0;color:var(--muted);font-size:12px}
+  footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  #lightbox{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;z-index:50;padding:20px;cursor:zoom-out}
+  #lightbox img{max-width:100%;max-height:100%;background:#fff;border-radius:6px}
+  #lightbox.open{display:flex}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="logo">AR.</div>
+    <div class="brand">Abdul Rauf / Accounting &amp; Finance</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Professional Profile</div>
+      <h1>Abdul Rauf</h1>
+      <div class="roles">Accountant. Bookkeeper.<br><span>Tax Specialist.</span></div>
+      <p class="lead">3+ years of hands-on experience in international bookkeeping, financial reporting, payroll and tax compliance.</p>
+      <div class="open">
+        <div class="eyebrow">Open to international opportunities</div>
+        <p style="color:var(--muted)">Lahore, Pakistan &nbsp;|&nbsp; KSA · USA · UK</p>
+      </div>
+    </div>
+    <!-- Put your photo at images/photo.jpg -->
+    <img class="photo" src="images/photo.jpg" alt="Abdul Rauf" onerror="this.style.visibility='hidden'">
+  </div>
+</section>
+
+<main class="wrap">
+  <div class="stats">
+    <div class="stat"><b>3+ years</b><small>Accounting experience</small></div>
+    <div class="stat"><b>11 projects</b><small>Selected work</small></div>
+    <div class="stat"><b>7 industries</b><small>Sector exposure</small></div>
+  </div>
+
+  <section id="about" class="about">
+    <h2 class="sec">Financial discipline. Practical business insight.</h2>
+    <p>Supporting the full accounting cycle, from reliable transaction records and reconciliations to management reporting and year-end compliance. Experience spans e-commerce, construction, real estate, hospitality, pharmaceuticals, logistics and insurance.</p>
+  </section>
+
+  <section id="expertise">
+    <h2 class="sec">Professional overview</h2>
+    <div class="cards">
+      <div class="card"><h3>Accounting &amp; reporting</h3><p>Bookkeeping, AP/AR, payroll, bank and credit card reconciliation, inventory, month-end close, financial statements, budgeting and variance analysis.</p></div>
+      <div class="card"><h3>Tax &amp; market knowledge</h3><p>UK VAT, CT600, Self-Assessment and annual accounts; UAE VAT and corporate tax experience. Saudi knowledge: VAT, ZATCA, FATOORA, Zakat, corporate income tax and GOSI.</p></div>
+      <div class="card"><h3>Software</h3><p>QuickBooks Online, Xero, Zoho Books, FreeAgent, Wave, TaxCalc, SAP, Oracle, Excel, Power BI and Gusto.</p></div>
+      <div class="card"><h3>Career &amp; credentials</h3>
+        <ul>
+          <li><b>Senior Associate Manager</b> · Saud and Sons Accountancy and Advisory (Pvt.) Ltd. · May 2024 - present</li>
+          <li><b>Cashier &amp; Accounts Assistant</b> · Indigo Developers Pvt. Ltd. · Mar 2023 - Apr 2024</li>
+          <li><b>BS Accounting &amp; Finance</b> · University of the Punjab · 2022 - 2026</li>
+          <li>Xero Certified Advisor · QuickBooks Online ProAdvisor</li>
+          <li>Financial Planning, Budgeting and Analysis - Independent Study</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="sec">Explore the work</h2>
+    <p class="note" style="font-size:14px">Click any project below to jump to its work samples.</p>
+    <div class="index" id="index"></div>
+    <div id="project-list"></div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="eyebrow">Let's start a conversation</div>
+    <div class="grid">
+      <a href="mailto:abdulrauf6850@gmail.com">abdulrauf6850@gmail.com</a>
+      <!-- Replace the link below with your real LinkedIn profile URL -->
+      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank" rel="noopener">LinkedIn profile</a>
+      <a href="tel:+923266850978">+92 326 6850978</a>
+      <a href="#projects">View interactive portfolio</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>ABDUL RAUF | PROFESSIONAL PORTFOLIO</span>
+    <span>&copy; <span id="yr"></span> Abdul Rauf</span>
+  </div>
+</footer>
+
+<div id="lightbox" aria-hidden="true"><img alt="Full-size work sample"></div>
+
+<script>
+  var NOTE = "Work samples show engagement outputs; business financial results are not claims of performance improvement.";
+  var projects = [
+    {n:"01",tag:"E-commerce",title:"E-commerce accounting",sub:"Amazon & Shopify / QuickBooks Online",
+     desc:"Managed bookkeeping for a US-based e-commerce business selling across the UK, USA and Canada. Organised marketplace income, inventory, receivables and payables, reconciled banking activity, and prepared financial statements.",
+     chips:"Multi-marketplace bookkeeping | Inventory & cost of goods sold | Accounts payable & receivable | Profit & loss, balance sheet & cash flow",imgs:2},
+    {n:"02",tag:"Bookkeeping",title:"Two-year bookkeeping catch-up",sub:"Historical records / Financial reporting",
+     desc:"Completed two years of bookkeeping, bringing transactions into an organised reporting structure. Managed accounts payable, accounts receivable and payroll, reconciled bank accounts, and prepared the core financial statements.",
+     chips:"Two-year catch-up | Bank reconciliation | Payroll & AP/AR | Financial statement preparation",imgs:1},
+    {n:"03",tag:"Bookkeeping",title:"Construction project accounting",sub:"Construction / Project-based reporting",
+     desc:"Maintained construction company accounts with project-based expense and inventory tracking. Managed vendors and customers, ran payroll, reconciled bank and credit card accounts, and prepared financial reports.",
+     chips:"Project cost tracking | Materials & inventory | Payroll administration | Vendor & customer accounts",imgs:1},
+    {n:"04",tag:"Bookkeeping",title:"Real estate accounting",sub:"Property business / Financial statements",
+     desc:"Managed bookkeeping and financial reporting for a real estate business, with clear classification of rental and sales commissions, operating costs and payroll expenses. Prepared profit and loss, balance sheet and cash flow reports alongside bank reconciliation.",
+     chips:"Commission income | Operating expense classification | Payroll expense reporting | Bank reconciliation",imgs:1},
+    {n:"05",tag:"Bookkeeping",title:"Short-term rental bookkeeping",sub:"Airbnb & Booking.com / Hospitality",
+     desc:"Recorded Airbnb and Booking.com sales and organised rental income, platform service fees, cleaning costs and property management expenses. Prepared financial reports that make the business's income and operating costs easier to review.",
+     chips:"Platform revenue tracking | Service fees & adjustments | Property operating costs | Financial reporting",imgs:1},
+    {n:"06",tag:"Bookkeeping",title:"Pharmaceutical business accounts",sub:"Pharmaceuticals / Sales & cost reporting",
+     desc:"Maintained bookkeeping for a pharmaceutical business, presenting sales, purchases, cost of goods sold and operating expenses in structured accounts. The work sample includes payroll and salary expense reporting alongside product and service income.",
+     chips:"Sales & purchase classification | Cost of goods sold | Payroll expense reporting | Management accounts",imgs:1},
+    {n:"07",tag:"Bookkeeping",title:"Shipping & logistics accounting",sub:"Transport / Operating cost control",
+     desc:"Managed the books for a shipping and logistics company, classifying service income and operating expenses and reconciling bank and credit card accounts. Reporting covers trucking costs, delivery expenses, vehicle leases and payroll.",
+     chips:"Freight & service income | Trucking & delivery costs | Bank & credit card reconciliation | Payroll expense reporting",imgs:1},
+    {n:"08",tag:"Bookkeeping",title:"Insurance business accounts",sub:"Insurance / Monthly reporting",
+     desc:"Managed insurance business accounts with monthly profit and loss reporting. The work sample separates commission and service income from lead generation, contract labour, payroll and administrative expenses.",
+     chips:"Commission income reporting | Monthly profit & loss | Payroll expense tracking | Operating expense analysis",imgs:1},
+    {n:"09",tag:"Analysis",title:"Budgeting & financial analysis",sub:"Planning / Financial decision support",
+     desc:"Prepared budgeting and financial analysis for a client, bringing revenue trends, profit projections and the expense mix into a clear visual presentation. The three original charts are presented together as one planning project.",
+     chips:"Budget planning | Revenue trend analysis | Profit projections | Expense composition",imgs:3,
+     note:"Planning work samples: charts are not independently verified business results."},
+    {n:"10",tag:"Tax",title:"VAT preparation & filing",sub:"UK VAT / Reconciliation & submission",
+     desc:"Prepared VAT returns for multiple clients, reconciled supporting VAT workings and reviewed input and output VAT before filing. This project brings the VAT return summary and HMRC filing confirmation together.",
+     chips:"VAT working papers | Input & output VAT reconciliation | Return preparation | HMRC filing",imgs:2},
+    {n:"11",tag:"Tax",title:"Annual accounts & corporation tax",sub:"UK / CT600 & annual accounts",
+     desc:"Prepared annual accounts and year-end adjustments, and supported corporation tax filings for multiple clients. The gallery includes a CT600 submission response and a micro-entity accounts submission confirmation.",
+     chips:"Annual accounts | Year-end adjustments | CT600 corporation tax | Submission documentation",imgs:2}
+  ];
+
+  var idx = document.getElementById("index");
+  var list = document.getElementById("project-list");
+  var html = "", ihtml = "";
+
+  projects.forEach(function(p){
+    ihtml += '<a href="#project-'+p.n+'"><span>'+p.n+'</span>'+p.title+'</a>';
+    html += '<article class="project" id="project-'+p.n+'">' +
+      '<div class="eyebrow">Project '+p.n+' / '+p.tag+'</div>' +
+      '<h2>'+p.title+'</h2><div class="sub">'+p.sub+'</div>' +
+      '<p class="desc">'+p.desc+'</p><div class="chips">'+p.chips+'</div>' +
+      '<div class="samples-title">Original work samples</div>';
+    for (var i=1;i<=p.imgs;i++){
+      var src = "images/p"+p.n+"-"+i+".png";
+      html += '<figure class="sample"><img loading="lazy" src="'+src+'" alt="'+p.title+' - sample '+i+'" data-full="'+src+'" onerror="this.style.display=\'none\'">' +
+        '<figcaption>Sample '+i+' of '+p.imgs+' - <a data-full="'+src+'">open full-size image</a></figcaption></figure>';
+    }
+    html += '<p class="note">'+(p.note||NOTE)+'</p></article>';
+  });
+  idx.innerHTML = ihtml;
+  list.innerHTML = html;
+
+  var lb = document.getElementById("lightbox");
+  var lbImg = lb.querySelector("img");
+  document.addEventListener("click", function(e){
+    var t = e.target.closest("[data-full]");
+    if (t){ e.preventDefault(); lbImg.src = t.getAttribute("data-full"); lb.classList.add("open"); return; }
+    if (lb.classList.contains("open")) lb.classList.remove("open");
+  });
+  document.addEventListener("keydown", function(e){ if(e.key==="Escape") lb.classList.remove("open"); });
+  document.getElementById("yr").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
